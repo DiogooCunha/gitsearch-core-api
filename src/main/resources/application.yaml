@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: gitsearch-core-api
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+    serialization:
+      write-dates-as-timestamps: false
+    deserialization:
+      fail-on-unknown-properties: false
+server:
+  servlet:
+    context-path: /api/gitsearch/
+    encoding:
+      charset: UTF-8
+      enabled: true
+  port: 5555

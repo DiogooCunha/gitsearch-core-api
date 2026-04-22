@@ -10,4 +10,5 @@ public class HealthAdapter implements IHealthPort {
     public String checkHealth() {
         return "CHECK";
     }
+
 }

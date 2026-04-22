@@ -16,4 +16,5 @@ public class CheckHealthUseCase {
         log.info("[m=execute] Check application health");
         return this.healthPort.checkHealth();
     }
+
 }

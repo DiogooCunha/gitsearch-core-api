@@ -14,3 +14,7 @@ server:
       charset: UTF-8
       enabled: true
   port: 5555
+
+github:
+  client-id: ${CLIENT_ID}
+  client-secret: ${CLIENT_SECRET}

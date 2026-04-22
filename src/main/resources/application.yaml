@@ -5,6 +5,8 @@ spring:
     property-naming-strategy: SNAKE_CASE
     deserialization:
       fail-on-unknown-properties: false
+  banner:
+    location: banner.txt
 server:
   servlet:
     context-path: /api/gitsearch/
